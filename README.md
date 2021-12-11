@@ -74,3 +74,5 @@ Save changes
 Create custom error response
 
 ## Github Configuration
+
+\*Re-running a build\*\*: On Github repo > Actions > Click on the failed workflow > Re-run all jobs
