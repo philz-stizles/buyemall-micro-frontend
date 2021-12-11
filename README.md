@@ -5,7 +5,7 @@
 1.) [AWS IAM Configuration](#aws_iam_configuration)
 2.) [AWS S3 Configuration](#aws_s3_configuration)
 3.) [AWS Cloudfront Distribution Configuration](#aws_cloudfront_distribution_configuration)
-4.) [Github Secrets](#github_secrets)
+4.) [Github Configuration](#github_configuration)
 
 ## AWS IAM Configuration
 
@@ -72,3 +72,5 @@ Save changes
 **Response page path**: /container/latest/index.html
 **HTTP Response code**: 200: OK
 Create custom error response
+
+## Github Configuration
