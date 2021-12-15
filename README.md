@@ -1,11 +1,11 @@
-# buyemall-micro-frontend
+# Buyemall Micro-frontend
 
 ## Table of Content
 
-1.) [AWS IAM Configuration](#aws_iam_configuration)
-2.) [AWS S3 Configuration](#aws_s3_configuration)
-3.) [AWS Cloudfront Distribution Configuration](#aws_cloudfront_distribution_configuration)
-4.) [Github Configuration](#github_configuration)
+[1.) AWS IAM Configuration](#aws_iam_configuration)
+[2.) AWS S3 Configuration](#aws_s3_configuration)
+[3.) AWS Cloudfront Distribution Configuration](#aws_cloudfront_distribution_configuration)
+[4.) Github Configuration](#github_configuration)
 
 ## AWS IAM Configuration
 
@@ -72,6 +72,11 @@ Save changes
 **Response page path**: /container/latest/index.html
 **HTTP Response code**: 200: OK
 Create custom error response
+
+**Create Invalidation**: Cloudfront > Select a distribution > Invalidations > Create invalidation
+
+**Object paths**: /container/latest/index.html
+Create invalidation
 
 ## Github Configuration
 
