@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import { useHistory } from 'react-router-dom';
 // import { useNavigate } from 'react-router-dom';
-import { mount } from 'marketing/MarketingUI';
+import { mount } from 'auth/AuthUI';
 
-export default () => {
+export default ({ onSignIn }) => {
   const ref = useRef(null);
   const history = useHistory();
   // const navigate = useNavigate();
@@ -19,7 +19,8 @@ export default () => {
           history.push(nextPathName);
           // navigate(nextPathName);
         }
-      }
+      },
+      onSignIn
     });
 
     history.listen(onParentNavigate);

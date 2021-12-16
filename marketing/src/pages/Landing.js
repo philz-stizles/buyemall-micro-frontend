@@ -6,7 +6,7 @@ const Landing = () => {
   return (
     <div>
       <h1>Landing</h1>
-      <Link to={`pricing`}>
+      <Link to={`/pricing`}>
         {' '}
         <Button variant="contained">Pricing</Button>
       </Link>
